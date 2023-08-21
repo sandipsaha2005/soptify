@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Roboto+Condensed:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="spotify">
+      <div class="side_bar">
+        <div class="nav">
+          <div class="nav_option">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav_option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib_option nav_option">
+              <i class="fa-solid fa-book-medical"></i>
+              <a href="#">Your Libray</a>
+            </div>
+            <div class="lib_icon">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib_box">
+            <div class="box">
+              <div class="box_p1">
+                <p>Creat your first playlist</p>
+              </div>
+              <div class="box_p2">
+                <p>It's easy, we will help you</p>
+              </div>
+              <button class="badge">Create Playlist</button>
+            </div>
+            <div class="box">
+              <div class="box_p1">
+                <p>Let's find some podcasts to follow</p>
+              </div>
+              <div class="box_p2">
+                <p>We will keep you updated on new episodes</p>
+              </div>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_content">
+        <div class="sticky_nav">
+          <div class="sticky_icon">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right" class="hide"></i>
+          </div>
+          <div class="sanpa">
+          <div class="san">Spotify by Sandip Saha</div>
+        </div>
+          <div class="sticky_badge">
+            <button class="badge nav_item hide">Explore Premium</button>
+            <button class="badge dark_button nav_item">
+              <i class="fa-regular fa-circle-down"></i> Install App
+            </button>
+            <i class="fa-regular fa-user nav_item"></i>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="headingh"><h2>Recently Played</h2></div>
+
+          <div class="card_containerr">
+            <div class="card">
+              <img src="arrijit.jpeg" alt="" />
+              <p class="card_title">Arijit Singh Mix</p>
+              <p class="card_info">Leading playback singer in India</p>
+            </div>
+            <div class="card" style="width: 20%">
+              <img src="camilia.jpg" alt="" />
+              <p class="card_title">Mood Melody</p>
+              <p class="card_info">Drive deep into water.</p>
+            </div>
+            <!-- <div class="card">
+                    <img src="" alt="">
+                    <p class="card_title"></p>
+                    <p class="card_info"></p>
+                    
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="card_title"></p>
+                    <p class="card_info"></p>
+                    
+                </div>
+                <div class="card">
+                    <img src="" alt="">
+                    <p class="card_title"></p>
+                    <p class="card_info"></p>
+                    
+                </div> -->
+          </div>
+          <div class="heading"><h2>Daily Mix</h2></div>
+
+          <div class="card_container">
+            <div class="card">
+              <img src="day1.jpeg" alt="" />
+              <p class="card_title">Daily Mix 1</p>
+              <p class="card_info">
+                The Destination also contains three new enhanced album
+                experiences:“Fan Mode,” “Billie Mode,”
+              </p>
+            </div>
+            <div class="card">
+              <img src="day2.jpeg" alt="" />
+              <p class="card_title">Daily Mix 2</p>
+              <p class="card_info">
+                New release, Prefect Work-out songs,"Let the golden hues of
+                'Sunset Serenade' paint the sky of your emotions."
+              </p>
+            </div>
+            <div class="card">
+              <img src="day3.jpeg" alt="" />
+              <p class="card_title">Daily Mix 3</p>
+              <p class="card_info">
+                "This enchanting melody weaves through a tapestry of acoustic
+                guitars and warm vocals,"
+              </p>
+            </div>
+            <div class="card">
+              <img src="day4.jpeg" alt="" />
+              <p class="card_title">Daily Mix 4</p>
+              <p class="card_info">
+                "As the day transitions into twilight, let the soothing notes
+                carry you into a realm where time seems to slow down"
+              </p>
+            </div>
+            <div class="card">
+              <img src="day5.jpeg" alt="" />
+              <p class="card_title">Daily Mix 5</p>
+              <p class="card_info">
+                "With every strum and lyric, 'Sunset Serenade' invites you to
+                bask in the magic of the moment."
+              </p>
+            </div>
+          </div>
+          <div class="heading"><h2>Best Of the Week</h2></div>
+          <div class="card_container">
+            <div class="card">
+              <img src="darshan2.jpeg" alt="" />
+              <p class="card_title">Darshan Raval</p>
+              <p class="card_info">Calming, Nostalgic, Tranquil, Melancholic</p>
+            </div>
+            <div class="card">
+              <img src="armaan.jpeg" alt="" />
+              <p class="card_title">Armaan Malik</p>
+              <p class="card_info">"Sunset Serenade",Acoustic Guitar, Vocals</p>
+            </div>
+            <div class="card">
+              <img src="arijtspotify.jpeg" alt="" />
+              <p class="card_title">Arijit Singh</p>
+              <p class="card_info">
+                "Soulful Serenades"<br />Immerse yourself in the velvety vocals
+                of Arijit Singh
+              </p>
+            </div>
+            <div class="card">
+              <img src="justin.jpeg" alt="" />
+              <p class="card_title">Justin Beiber</p>
+              <p class="card_info">
+                "Neon Nights"<br />Energetic, Exciting, Urban, Futuristic,
+              </p>
+            </div>
+            <div class="card">
+              <img src="zayn.jpg" alt="" />
+              <p class="card_title">Zayn Malik</p>
+              <p class="card_info">
+                Experience the electric pulse of the city in 'Neon Nights.'
+              </p>
+            </div>
+          </div>
+          <div class="heading"><h2>Discover New for You!</h2></div>
+          <div class="card_container">
+            <div class="card">
+              <img src="taylor.jpeg" alt="" />
+              <p class="card_title">Taylor Swift</p>
+              <p class="card_info">
+                "Enter a world of wonder and emotion with Taylor Swift's
+                'Whimsical Chronicles.'
+              </p>
+            </div>
+            <div class="card">
+              <img src="dualipa.jpeg" alt="" />
+              <p class="card_title">Dua Lipa</p>
+              <p class="card_info">
+                "Immerse yourself in the pulsating beats and infectious energy
+                of Dua Lipa's 'Electric Euphoria.'
+              </p>
+            </div>
+            <div class="card">
+              <img src="billi.jpg" alt="" />
+              <p class="card_title">Billie Eilish</p>
+              <p class="card_info">
+                "Step into the hauntingly beautiful world of Billie Eilish's
+                'Ethereal Whispers.'
+              </p>
+            </div>
+            <div class="card">
+              <img src="shawn.jpeg" alt="" />
+              <p class="card_title">Shawn Mendes</p>
+              <p class="card_info">
+                "Enter a realm of 'Heartfelt Harmonies' with Shawn Mendes, where
+                his soulful vocals intertwine."
+              </p>
+            </div>
+            <div class="card">
+              <img src="ed.jpeg" alt="" />
+              <p class="card_title">Ed Sheeran</p>
+              <p class="card_info">
+                "Embark on a journey through life's tales with Ed Sheeran's
+                'Melodic Stories."
+              </p>
+            </div>
+          </div>
+          <div class="heading"><h2>Kya bol rahi Public!</h2></div>
+          <div class="card_container">
+            <div class="card">
+              <img src="divinesp.jpg" alt="" />
+              <p class="card_title">Divine</p>
+              <p class="card_info">
+                “SHUTDOWN” this year partnering with Nas label 'Mass Appeal' on
+                the project.
+              </p>
+            </div>
+            <div class="card">
+              <img src="raftaarsp.jpg" alt="" />
+              <p class="card_title">Rafaar</p>
+              <p class="card_info">
+                "Raftaar's music is an anthem of self-expression and the
+                unapologetic celebration of urban culture."
+              </p>
+            </div>
+            <div class="card">
+              <img src="badsahsp.jpeg" alt="" />
+              <p class="card_title">Badsah</p>
+              <p class="card_info">
+                "Step into the urban groove masterclass of Badshah's music"
+              </p>
+            </div>
+            <div class="card">
+              <img src="krishna.jpeg" alt="" />
+              <p class="card_title">Krishna</p>
+              <p class="card_info">
+                "Krishna Kaul aka KR$NA emerged as a bona-fide rap star of
+                Indian Hip-Hop."
+              </p>
+            </div>
+            <div class="card">
+              <img src="eminem.jpg" alt="" />
+              <p class="card_title">Eminem</p>
+              <p class="card_info">
+                "Dive into the raw, unfiltered world of Eminem's music"
+              </p>
+            </div>
+          </div>
+          <div class="heading"><h2>Now Trending</h2></div>
+          <div class="card_container">
+            <div class="card">
+              <img src="jennifer.jpeg" alt="" />
+              <p class="card_title">Jennifer Lawrence</p>
+              <p class="card_info">
+                "Experience the captivating melodies of Jennifer Lawrence's
+                music"
+              </p>
+            </div>
+            <div class="card">
+              <img src="bts.jpeg" alt="" />
+              <p class="card_title">Jungkook</p>
+              <p class="card_info">
+                "Enter the world of 'Soulful Expressions' with Jungkook's music"
+              </p>
+            </div>
+            <div class="card">
+              <img src="lisa.jpeg" alt="" />
+              <p class="card_title">La Lisa</p>
+              <p class="card_info">
+                "Immerse yourself in the world of Lisa's 'Fierce Charisma
+                Unleashed"
+              </p>
+            </div>
+            <div class="card">
+              <img src="anni.jpeg" alt="" />
+              <p class="card_title">Anne marie</p>
+              <p class="card_info">
+                "Experience the power of Anne-Marie's 'Empowering Anthems"
+              </p>
+            </div>
+            <div class="card">
+              <img src="paul.jpeg" alt="" />
+              <p class="card_title">Sean Paul</p>
+              <p class="card_info">
+                "Dive into an island groove extravaganza with Sean Paul's music"
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="name">
+          <div class="sandy">
+          <p>SANDIP SAHA</p>
+        </div>
+        </div> -->
+        <div class="footer">
+          
+          <div class="line"></div>  
+        </div>
+        
+      </div>
+      <div class="player">
+        <div class="album"></div>
+        <div class="iconsp">
+          <div class="inner_icon">
+            <i class="fa-solid fa-shuffle ig"></i>
+            <i class="fa-solid fa-backward-step ig"></i>
+            <i class="fa-regular fa-circle-pause ig" style="font-size: 2.2rem;"></i>
+            <i class="fa-solid fa-forward-step ig"></i>
+            <i class="fa-solid fa-repeat ig"></i> 
+          </div>
+          <div class="playback_bar">
+              <span class="curr_time">00:00</span>
+              <input type="range" min="0" max="100" class="progress">
+              <span class="total_time">3:33</span>
+          </div>
+        </div>
+       
+        <div class="control"></div>
+      </div>
+    </div>
+  </body>
+</html>
